@@ -2,10 +2,12 @@
 
 Frontend Battle 3.0 · IIT Bhubaneswar Submission
 
+DataFlow is a premium AI-powered SaaS landing page designed for modern data engineering teams. The platform demonstrates responsive design, advanced pricing logic, accessibility, SEO optimization, and smooth native animations while strictly adhering to competition constraints.
+
 ## Live Demo
 
-* Live Site: https://dataflow-landing-sage.vercel.app/
-* Repository: https://github.com/dharunhareesh-lgtm/dataflow-landing
+* **Live Site:** https://dataflow-landing-sage.vercel.app/
+* **Repository:** https://github.com/dharunhareesh-lgtm/dataflow-landing
 
 ---
 
@@ -14,9 +16,9 @@ Frontend Battle 3.0 · IIT Bhubaneswar Submission
 * Next.js 15 (App Router, React 19)
 * TypeScript (Strict Mode)
 * Tailwind CSS 3
-* Native CSS animations only
+* Native CSS Animations
 * Web Animations API
-* No runtime animation libraries
+* No Runtime Animation Libraries
 
 ---
 
@@ -31,7 +33,7 @@ Frontend Battle 3.0 · IIT Bhubaneswar Submission
 | Nocturnal Expedition | `#114C5A` |
 | Oceanic Noir         | `#172B36` |
 
-Typography:
+### Typography
 
 * Headings & Metrics → JetBrains Mono
 * Body & UI → Inter
@@ -39,6 +41,8 @@ Typography:
 ---
 
 ## Getting Started
+
+### Development
 
 ```bash
 npm install
@@ -51,7 +55,7 @@ Open:
 http://localhost:3000
 ```
 
-Production:
+### Production
 
 ```bash
 npm run build
@@ -64,17 +68,17 @@ npm start
 
 ### Dynamic Pricing Matrix
 
-* Configuration driven pricing via `lib/pricing.ts`
-* No hardcoded prices inside components
-* Supports INR, USD and EUR
-* Locale aware currency formatting using `Intl.NumberFormat`
-* Monthly and Annual billing support
+* Configuration-driven pricing via `lib/pricing.ts`
+* Zero hardcoded prices inside components
+* Supports INR, USD, and EUR
+* Locale-aware formatting using `Intl.NumberFormat`
+* Monthly and annual billing cycles
 * Annual billing applies a 20% discount
-* Currency and billing changes only re-render price nodes using `React.memo`
+* Pricing updates only re-render price nodes using `React.memo`
 
 ### Responsive Bento Grid
 
-* Desktop (`>=769px`) uses Bento Grid layout
+* Desktop (`>=769px`) uses a Bento Grid layout
 * Mobile (`<769px`) automatically transforms into an accordion
 * Shared active state persists across viewport changes
 
@@ -82,7 +86,7 @@ npm start
 
 * Scroll reveal animations via `IntersectionObserver`
 * Minimal re-renders using optimized state management
-* CSS transitions only (`150ms - 400ms`)
+* CSS transitions only (`150ms–400ms`)
 * Fonts loaded with `display=swap`
 
 ### Accessibility
@@ -90,7 +94,7 @@ npm start
 * Semantic HTML structure
 * Comprehensive ARIA labels
 * Keyboard accessible navigation
-* Responsive and screen reader friendly design
+* Screen reader friendly design
 
 ### SEO
 
@@ -105,10 +109,10 @@ npm start
 
 | Metric         | Score  |
 | -------------- | ------ |
-| Performance    | 55-75  |
-| Accessibility  | 86-96  |
+| Performance    | 55–75  |
+| Accessibility  | 86–96  |
 | Best Practices | 100    |
-| SEO            | 91-100 |
+| SEO            | 91–100 |
 
 ---
 
@@ -133,6 +137,3 @@ public/
 * SEO optimized
 * Accessibility compliant
 * Production deployment ready
-
-```
-```
